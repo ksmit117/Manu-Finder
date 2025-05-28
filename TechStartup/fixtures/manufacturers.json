@@ -1,0 +1,884 @@
+[
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 1,
+        "fields": {
+            "name": "ABC Corp",
+            "location": "New York, USA",
+            "description": "Leading producer of high-performance sportswear for athletes.",
+            "spec": "sportswear",
+            "website": "https://abccorp.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 2,
+        "fields": {
+            "name": "Tech Corp",
+            "location": "San Francisco, USA",
+            "description": "Innovative fashion brand focused on modern women's fashion.",
+            "spec": "women-fashion",
+            "website": "https://techcorp.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 3,
+        "fields": {
+            "name": "GreenTech Industries",
+            "location": "Berlin, Germany",
+            "description": "Eco-friendly products manufacturer specializing in biodegradable packaging.",
+            "spec": "eco-packaging",
+            "website": "https://greentech.de"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 4,
+        "fields": {
+            "name": "AutoMech Ltd.",
+            "location": "Detroit, USA",
+            "description": "Top-tier automotive parts and machinery manufacturer.",
+            "spec": "auto-parts",
+            "website": "https://automech.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 5,
+        "fields": {
+            "name": "Medix Global",
+            "location": "Zurich, Switzerland",
+            "description": "Medical devices manufacturer known for innovative surgical tools.",
+            "spec": "medical-devices",
+            "website": "https://medixglobal.ch"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 6,
+        "fields": {
+            "name": "AeroTech Systems",
+            "location": "Seattle, USA",
+            "description": "Provides advanced aerospace components for global defense and aviation.",
+            "spec": "aerospace",
+            "website": "https://aerotechsystems.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 7,
+        "fields": {
+            "name": "SmartBuild Co.",
+            "location": "Toronto, Canada",
+            "description": "Construction material innovators focusing on sustainable building products.",
+            "spec": "construction-materials",
+            "website": "https://smartbuild.ca"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 8,
+        "fields": {
+            "name": "ByteGear",
+            "location": "Tokyo, Japan",
+            "description": "High-quality electronics and consumer gadgets manufacturer.",
+            "spec": "electronics",
+            "website": "https://bytegear.jp"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 9,
+        "fields": {
+            "name": "AgroField",
+            "location": "Buenos Aires, Argentina",
+            "description": "Produces modern agricultural equipment and smart irrigation systems.",
+            "spec": "agriculture-tech",
+            "website": "https://agrofield.com.ar"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 10,
+        "fields": {
+            "name": "PrintLogic",
+            "location": "London, UK",
+            "description": "Specializes in industrial 3D printing solutions for manufacturing.",
+            "spec": "3d-printing",
+            "website": "https://printlogic.co.uk"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 11,
+        "fields": {
+            "name": "SolarRise Inc.",
+            "location": "Austin, USA",
+            "description": "Renewable energy company producing next-gen solar panels.",
+            "spec": "solar-energy",
+            "website": "https://solarrise.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 12,
+        "fields": {
+            "name": "FoodFab Ltd.",
+            "location": "Paris, France",
+            "description": "Produces innovative plant-based food and alternative proteins.",
+            "spec": "plant-based-food",
+            "website": "https://foodfab.fr"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 13,
+        "fields": {
+            "name": "NanoCore",
+            "location": "Seoul, South Korea",
+            "description": "Leader in nanotech-based coatings and filtration systems.",
+            "spec": "nanotechnology",
+            "website": "https://nanocore.kr"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 14,
+        "fields": {
+            "name": "SteelMatrix",
+            "location": "Pittsburgh, USA",
+            "description": "Specialty steel and alloy production for heavy industry.",
+            "spec": "steel",
+            "website": "https://steelmatrix.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 15,
+        "fields": {
+            "name": "PharmaNova",
+            "location": "Mumbai, India",
+            "description": "Generic pharmaceutical manufacturer and drug development firm.",
+            "spec": "pharmaceuticals",
+            "website": "https://pharmanova.in"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 16,
+        "fields": {
+            "name": "HydroWorks",
+            "location": "Oslo, Norway",
+            "description": "Hydropower systems manufacturer for renewable energy projects.",
+            "spec": "hydropower",
+            "website": "https://hydroworks.no"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 17,
+        "fields": {
+            "name": "RoboDynamics",
+            "location": "Shenzhen, China",
+            "description": "Manufacturer of industrial and consumer robotics solutions.",
+            "spec": "robotics",
+            "website": "https://robodynamics.cn"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 18,
+        "fields": {
+            "name": "FiberTech",
+            "location": "Amsterdam, Netherlands",
+            "description": "Advanced fiber-optic cable and telecom equipment producer.",
+            "spec": "fiber-optics",
+            "website": "https://fibertech.nl"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 19,
+        "fields": {
+            "name": "GlobePack",
+            "location": "Shanghai, China",
+            "description": "Packaging solutions provider for food and beverage industries.",
+            "spec": "food-packaging",
+            "website": "https://globepack.cn"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 20,
+        "fields": {
+            "name": "ArtiWear",
+            "location": "Milan, Italy",
+            "description": "Fashion house merging luxury apparel with wearable tech.",
+            "spec": "wearable-tech",
+            "website": "https://artiwear.it"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 21,
+        "fields": {
+            "name": "OptiLens",
+            "location": "Stockholm, Sweden",
+            "description": "High-precision optical lenses for medical and industrial use.",
+            "spec": "optics",
+            "website": "https://optilens.se"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 22,
+        "fields": {
+            "name": "FreshChem",
+            "location": "Helsinki, Finland",
+            "description": "Eco-conscious chemical manufacturer for consumer products.",
+            "spec": "green-chemicals",
+            "website": "https://freshchem.fi"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 23,
+        "fields": {
+            "name": "NeoPrint",
+            "location": "Barcelona, Spain",
+            "description": "Creates advanced industrial ink and printing machinery.",
+            "spec": "printing-machines",
+            "website": "https://neoprint.es"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 24,
+        "fields": {
+            "name": "HeatMax",
+            "location": "Reykjavik, Iceland",
+            "description": "Specialists in geothermal heating systems and components.",
+            "spec": "geothermal",
+            "website": "https://heatmax.is"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 25,
+        "fields": {
+            "name": "LuxMetal",
+            "location": "Dubai, UAE",
+            "description": "Luxury-grade metal and alloy products for architecture and art.",
+            "spec": "luxury-metals",
+            "website": "https://luxmetal.ae"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 26,
+        "fields": {
+            "name": "ChemCore Solutions",
+            "location": "Frankfurt, Germany",
+            "description": "Specialist in industrial-grade chemicals for manufacturing and research.",
+            "spec": "industrial-chemicals",
+            "website": "https://chemcoresolutions.de"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 27,
+        "fields": {
+            "name": "GastroEquip",
+            "location": "Rome, Italy",
+            "description": "Leading supplier of commercial kitchen and food processing equipment.",
+            "spec": "kitchen-equipment",
+            "website": "https://gastroequip.it"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 28,
+        "fields": {
+            "name": "BioPulse",
+            "location": "Copenhagen, Denmark",
+            "description": "Biotech company developing sensors and wearables for health monitoring.",
+            "spec": "biotech-sensors",
+            "website": "https://biopulse.dk"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 29,
+        "fields": {
+            "name": "EnviroShield",
+            "location": "Vienna, Austria",
+            "description": "Manufactures environmental protection gear and air filtration units.",
+            "spec": "air-filtration",
+            "website": "https://enviroshield.at"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 30,
+        "fields": {
+            "name": "ThermaPro",
+            "location": "Phoenix, USA",
+            "description": "Produces high-efficiency thermal insulation products.",
+            "spec": "thermal-insulation",
+            "website": "https://thermapro.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 31,
+        "fields": {
+            "name": "LogiTrack",
+            "location": "Singapore",
+            "description": "Specialists in logistics software and tracking hardware manufacturing.",
+            "spec": "logistics-technology",
+            "website": "https://logitrack.sg"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 32,
+        "fields": {
+            "name": "WaterPure",
+            "location": "Cape Town, South Africa",
+            "description": "Innovative water purification and desalination systems producer.",
+            "spec": "water-purification",
+            "website": "https://waterpure.co.za"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 33,
+        "fields": {
+            "name": "NeoLeather",
+            "location": "Istanbul, Turkey",
+            "description": "Produces sustainable vegan leather and eco-textiles.",
+            "spec": "vegan-leather",
+            "website": "https://neoleather.tr"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 34,
+        "fields": {
+            "name": "CyberMatrix",
+            "location": "Tel Aviv, Israel",
+            "description": "Manufactures cybersecurity hardware and encrypted communication devices.",
+            "spec": "cybersecurity-hardware",
+            "website": "https://cybermatrix.co.il"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 35,
+        "fields": {
+            "name": "FlexPrints",
+            "location": "Brussels, Belgium",
+            "description": "Leader in flexible electronics and printed circuit technologies.",
+            "spec": "flexible-electronics",
+            "website": "https://flexprints.be"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 36,
+        "fields": {
+            "name": "SoundWave Audio",
+            "location": "Los Angeles, USA",
+            "description": "Produces studio-grade audio equipment for professionals and musicians.",
+            "spec": "audio-equipment",
+            "website": "https://soundwaveaudio.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 37,
+        "fields": {
+            "name": "DigiPack",
+            "location": "Warsaw, Poland",
+            "description": "Develops smart packaging integrated with QR and NFC tech.",
+            "spec": "smart-packaging",
+            "website": "https://digipack.pl"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 38,
+        "fields": {
+            "name": "VitaLabs",
+            "location": "Boston, USA",
+            "description": "Manufacturer of nutritional supplements and vitamins.",
+            "spec": "supplements",
+            "website": "https://vitalabs.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 39,
+        "fields": {
+            "name": "PixelForge",
+            "location": "Bangkok, Thailand",
+            "description": "Creates digital display hardware and LED advertising boards.",
+            "spec": "digital-signage",
+            "website": "https://pixelforge.co.th"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 40,
+        "fields": {
+            "name": "SkyFleet Drones",
+            "location": "Dubai, UAE",
+            "description": "Drone manufacturer for logistics, agriculture, and surveillance.",
+            "spec": "drones",
+            "website": "https://skyfleet.ae"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 41,
+        "fields": {
+            "name": "LightFusion",
+            "location": "Osaka, Japan",
+            "description": "Develops fiber optics and laser systems for telecom and defense.",
+            "spec": "laser-systems",
+            "website": "https://lightfusion.jp"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 42,
+        "fields": {
+            "name": "NeoLume",
+            "location": "San Diego, USA",
+            "description": "Innovators in smart lighting and energy-saving illumination.",
+            "spec": "smart-lighting",
+            "website": "https://neolume.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 43,
+        "fields": {
+            "name": "FarmBotics",
+            "location": "Canberra, Australia",
+            "description": "Manufactures autonomous robots for precision farming.",
+            "spec": "agri-robots",
+            "website": "https://farmbotics.au"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 44,
+        "fields": {
+            "name": "CryoTech Systems",
+            "location": "Moscow, Russia",
+            "description": "Specializes in cryogenic cooling systems and cold storage.",
+            "spec": "cryogenics",
+            "website": "https://cryotech.ru"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 45,
+        "fields": {
+            "name": "ModuShelter",
+            "location": "Manila, Philippines",
+            "description": "Produces modular and disaster-resistant shelter systems.",
+            "spec": "modular-housing",
+            "website": "https://modushelter.ph"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 46,
+        "fields": {
+            "name": "CleanCycle",
+            "location": "Hanoi, Vietnam",
+            "description": "Develops electric scooters and clean urban transport tech.",
+            "spec": "electric-scooters",
+            "website": "https://cleancycle.vn"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 47,
+        "fields": {
+            "name": "DataFrame Systems",
+            "location": "Dublin, Ireland",
+            "description": "Creates rugged industrial computers and embedded systems.",
+            "spec": "embedded-systems",
+            "website": "https://dataframe.ie"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 48,
+        "fields": {
+            "name": "OceanRise",
+            "location": "Reykjavik, Iceland",
+            "description": "Wave and tidal energy tech manufacturer.",
+            "spec": "ocean-energy",
+            "website": "https://oceanrise.is"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 49,
+        "fields": {
+            "name": "TactixArmor",
+            "location": "Kyiv, Ukraine",
+            "description": "Produces ballistic protection gear and tactical vests.",
+            "spec": "ballistic-gear",
+            "website": "https://tactixarmor.ua"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 50,
+        "fields": {
+            "name": "NanoTiles",
+            "location": "Lisbon, Portugal",
+            "description": "Nanotech-enhanced ceramics and building materials.",
+            "spec": "nano-ceramics",
+            "website": "https://nanotiles.pt"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 51,
+        "fields": {
+            "name": "AquaTech",
+            "location": "Nairobi, Kenya",
+            "description": "Water management and irrigation systems manufacturer.",
+            "spec": "irrigation-systems",
+            "website": "https://aquatech.co.ke"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 52,
+        "fields": {
+            "name": "BioPack",
+            "location": "Buenos Aires, Argentina",
+            "description": "Biodegradable packaging solutions for food and retail.",
+            "spec": "biodegradable-packaging",
+            "website": "https://biopack.com.ar"
+
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 53,
+        "fields": {
+            "name": "SmartGrid Solutions",
+            "location": "Amsterdam, Netherlands",
+            "description": "Smart grid technology and energy management systems.",
+            "spec": "energy-management",
+            "website": "https://smartgrid.nl"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 54,
+        "fields": {
+            "name": "AeroDynamics",
+            "location": "Montreal, Canada",
+            "description": "Aerodynamic testing and simulation equipment manufacturer.",
+            "spec": "aerodynamics",
+            "website": "https://aerodynamics.ca"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 55,
+        "fields": {
+            "name": "BioFuels Inc.",
+            "location": "Rio de Janeiro, Brazil",
+            "description": "Renewable biofuels and energy solutions provider.",
+            "spec": "biofuels",
+            "website": "https://biofuels.com.br"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 56,
+        "fields": {
+            "name": "SmartHome Tech",
+            "location": "Barcelona, Spain",
+            "description": "Smart home devices and automation systems manufacturer.",
+            "spec": "home-automation",
+            "website": "https://smarthome.es"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 57,
+        "fields": {
+            "name": "AgriTech Innovations",
+            "location": "New Delhi, India",
+            "description": "Agricultural technology solutions for modern farming.",
+            "spec": "agri-tech",
+            "website": "https://agritech.in"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 58,
+        "fields": {
+            "name": "NanoHealth",
+            "location": "Singapore",
+            "description": "Nanotechnology-based health and wellness products.",
+            "spec": "nano-health",
+            "website": "https://nanohealth.sg"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 59,
+        "fields": {
+            "name": "EcoBuild",
+            "location": "Cairo, Egypt",
+            "description": "Sustainable building materials and eco-friendly construction solutions.",
+            "spec": "eco-construction",
+            "website": "https://ecobuild.eg"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 60,
+        "fields": {
+            "name": "SmartWear",
+            "location": "Seoul, South Korea",
+            "description": "Wearable technology and smart textiles manufacturer.",
+            "spec": "wearable-tech",
+            "website": "https://smartwear.kr"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 61,
+        "fields": {
+            "name": "AeroSpace Dynamics",
+            "location": "Houston, USA",
+            "description": "Aerospace components and systems manufacturer.",
+            "spec": "aerospace-components",
+            "website": "https://aerospacedynamics.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 62,
+        "fields": {
+            "name": "AgriSense",
+            "location": "Mexico City, Mexico",
+            "description": "Agricultural sensors and monitoring systems manufacturer.",
+            "spec": "agri-sensors",
+            "website": "https://agrisense.mx"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 63,
+        "fields": {
+            "name": "BioEnergy Solutions",
+            "location": "Lima, Peru",
+            "description": "Biomass energy solutions and renewable energy systems.",
+            "spec": "biomass-energy",
+            "website": "https://bioenergy.pe"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 64,
+        "fields": {
+            "name": "SmartWearables",
+            "location": "Lisbon, Portugal",
+            "description": "Wearable technology and smart textiles manufacturer.",
+            "spec": "wearable-tech",
+            "website": "https://smartwearables.pt"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 65,
+        "fields": {
+            "name": "EcoPack",
+            "location": "Athens, Greece",
+            "description": "Sustainable packaging solutions for food and retail.",
+            "spec": "eco-packaging",
+            "website": "https://ecopack.gr"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 66,
+        "fields": {
+            "name": "SmartFarming",
+            "location": "Amsterdam, Netherlands",
+            "description": "Smart farming solutions and precision agriculture technology.",
+            "spec": "smart-farming",
+            "website": "https://smartfarming.nl"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 67,
+        "fields": {
+            "name": "NanoTech Innovations",
+            "location": "Tokyo, Japan",
+            "description": "Nanotechnology-based products and solutions.",
+            "spec": "nano-tech",
+            "website": "https://nanotech.jp"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 68,
+        "fields": {
+            "name": "AgriTech Solutions",
+            "location": "Nairobi, Kenya",
+            "description": "Agricultural technology solutions for modern farming.",
+            "spec": "agri-tech",
+            "website": "https://agritech.co.ke"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 69,
+        "fields": {
+            "name": "SmartEnergy",
+            "location": "Berlin, Germany",
+            "description": "Smart energy solutions and renewable energy systems.",
+            "spec": "smart-energy",
+            "website": "https://smartenergy.de"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 70,
+        "fields": {
+            "name": "EcoTextiles",
+            "location": "Barcelona, Spain",
+            "description": "Sustainable textiles and eco-friendly fashion solutions.",
+            "spec": "eco-textiles",
+            "website": "https://ecotextiles.es"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 71,
+        "fields": {
+            "name": "SmartLogistics",
+            "location": "Singapore",
+            "description": "Smart logistics solutions and supply chain technology.",
+            "spec": "smart-logistics",
+            "website": "https://smartlogistics.sg"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 72,
+        "fields": {
+            "name": "BioMaterials",
+            "location": "Copenhagen, Denmark",
+            "description": "Biodegradable materials and sustainable packaging solutions.",
+            "spec": "bio-materials",
+            "website": "https://biomaterials.dk"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 73,
+        "fields": {
+            "name": "SmartConstruction",
+            "location": "Dubai, UAE",
+            "description": "Smart construction solutions and building technology.",
+            "spec": "smart-construction",
+            "website": "https://smartconstruction.ae"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 74,
+        "fields": {
+            "name": "EcoEnergy",
+            "location": "Helsinki, Finland",
+            "description": "Renewable energy solutions and sustainable power systems.",
+            "spec": "eco-energy",
+            "website": "https://ecoenergy.fi"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 75,
+        "fields": {
+            "name": "SmartMobility",
+            "location": "Los Angeles, USA",
+            "description": "Smart mobility solutions and electric vehicle technology.",
+            "spec": "smart-mobility",
+            "website": "https://smartmobility.com"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 76,
+        "fields": {
+            "name": "EcoFuels",
+            "location": "Rio de Janeiro, Brazil",
+            "description": "Renewable fuels and sustainable energy solutions.",
+            "spec": "eco-fuels",
+            "website": "https://ecofuels.com.br"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 77,
+        "fields": {
+            "name": "SmartTextiles",
+            "location": "Seoul, South Korea",
+            "description": "Smart textiles and wearable technology solutions.",
+            "spec": "smart-textiles",
+            "website": "https://smarttextiles.kr"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 78,
+        "fields": {
+            "name": "EcoConstruction",
+            "location": "Athens, Greece",
+            "description": "Sustainable construction solutions and eco-friendly building materials.",
+            "spec": "eco-construction",
+            "website": "https://ecoconstruction.gr"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 79,
+        "fields": {
+            "name": "SmartAgriculture",
+            "location": "Amsterdam, Netherlands",
+            "description": "Smart agriculture solutions and precision farming technology.",
+            "spec": "smart-agriculture",
+            "website": "https://smartagriculture.nl"
+        }
+    },
+    {
+        "model": "TechStartup.manufacturer",
+        "id": 80,
+        "fields": {
+            "name": "EcoPackaging",
+            "location": "Barcelona, Spain",
+            "description": "Sustainable packaging solutions and eco-friendly materials.",
+            "spec": "eco-packaging",
+            "website": "https://ecopackaging.es"
+        }
+    }
+]
+

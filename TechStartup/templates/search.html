@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Manu-Finder Search</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="{% static 'css/styles2.css' %}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Manu-Finder</h1>
+				<p>Start simple enter a prompt<br />
+				your mission starts here</p>
+			</header>
+
+		<!-- Search Form -->
+		<form method="GET" action="{% url 'search' %}">
+			<input type="text" name="q" placeholder="Search for manufacturers..." value="{{ query }}">
+			{% if user.is_authenticated %}
+				<button type="submit">Search</button>
+			{% else %}
+				<a href="{% url 'login' %}">You must be logged in to search.</a>
+			{% endif %}
+		</form>
+		
+		{% if results %}
+    <ul>
+        {% for manufacturer in results %}
+            <li>
+                <h2>{{ manufacturer.name }}</h2>
+				<p>{{ manufacturer.description }}</p>
+				<p>Location: {{ manufacturer.location }}</p>
+				<p><a href="{{ manufacturer.website }}" target="_blank">Website</a></p>
+            </li>
+        {% endfor %}
+    </ul>
+	{% else %}
+		<p>No results found.</p>
+	{% endif %}
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Manu-Finder.</li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{% block title %}Manu-Finder{% endblock %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+</head>
+<body>
+{% block content %}
+    <h2>Logged out</h2>
+    <p>You have succesfully logged out</p>
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'home' %}">Return To Homepage</a>
+{% endblock %}
+</html>
+</body>

@@ -1,0 +1,61 @@
+{% load static%}
+<!-- templates/manufacturers/list.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manufacturers List</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manufacturers</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Description</th>
+                <th>Specialty</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for manufacturer in manufacturers %}
+            <tr>
+                <td>{{ manufacturer.name }}</td>
+                <td>{{ manufacturer.location }}</td>
+                <td>{{ manufacturer.description }}</td>
+                <td>{{ manufacturer.spec }}</td>
+                <td>
+                    {% if manufacturer.website %}
+                        <a href="{{ manufacturer.website }}" target="_blank">Visit</a>
+                    {% else %}
+                        N/A
+                    {% endif %}
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="5">No manufacturers found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{{ manufacturer.name }} - Manu-Finder</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{% static 'css/styles2.css' %}" />
+</head>
+<body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+        <h1>{{ manufacturer.name }}</h1>
+        <p>Location: {{ manufacturer.location }}</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="manufacturer-details">
+            {% if manufacturer.description %}
+                <h2>About</h2>
+                <p>{{ manufacturer.description }}</p>
+            {% endif %}
+            
+            {% if manufacturer.contact_info %}
+                <h2>Contact Information</h2>
+                <p>{{ manufacturer.contact_info }}</p>
+            {% endif %}
+            
+            {% if manufacturer.website %}
+                <h2>Website</h2>
+                <p><a href="{{ manufacturer.website }}" target="_blank">{{ manufacturer.website }}</a></p>
+            {% endif %}
+
+            {% if products %}
+                <h2>Products</h2>
+                <ul class="product-list">
+                    {% for product in products %}
+                        <li>
+                            <h3>{{ product.name }}</h3>
+                            <p>{{ product.description }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+        
+        <a href="{% url 'search' %}" class="button">Back to Search</a>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+            <li>&copy; Manu-Finder.</li>
+        </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>

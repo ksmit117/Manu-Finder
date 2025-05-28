@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+    <body>
+        <h1> search Results</h1>
+    <div class="card=boy">
+        <search>
+            <form method="POST" action="{% url 'test_result' %}">
+                {% csrf_token %}
+                <input name="searched" type="text" placeholder="Search...">
+                <button type='submit'>Search</button> 
+            </form>
+        </search>
+
+    </div>
